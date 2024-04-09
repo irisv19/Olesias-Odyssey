@@ -1,11 +1,11 @@
 .head-image {
-    background-image: url(pictures/olessia.jpg);
+    background-image: url(pictures/option5pt3.png);
     /* height: 100%; */
     background-position: center;
     /* background-repeat: no-repeat; */
     background-size: cover;
     /* position: relative; */
-    padding: 15%;
+    padding: 20%;
 }
 
 .head-text {
