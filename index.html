@@ -11,13 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Protest+Revolution&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Metal+Mania&family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Metal+Mania&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
 </head>
 
-<style> 
-.crosshair {cursor: crosshair;}
+<style>
+    .crosshair {
+        cursor: crosshair;
+    }
 </style>
 
 <body>
@@ -28,14 +32,44 @@
         </div>
     </div>
 
-    <p class="crosshair">Stranded on a boat for over a month, Olessia finds herself surrounded by the deceased and completely out of food.
+    <p class="crosshair">Stranded on a boat for over a month, Olessia finds herself surrounded by the deceased and
+        completely out of food.
         For reference, her village was overcome by a terrible plague and almost everyone planned an escape. Olessia and
         10 other people from her village sailed across the Sea of Selecia. Halfway through the sea, the sails tore
         leaving the boat to float wanderlessly. Over the span of two weeks half of the crew had passed and food was
         becoming scarce. Another two weeks had passed and Olessia was the only survivor. She had no food left whatsoever
         and was feeling extremely weak and pale. Her stomach aching from the lack of food and hydration, Olessia decided
         it was time to accept her fate when the boat came to a
-        rumble and a stop. Olessia found herself washed up on the shore of an island. </p>
+        rumble and a stop. Olessia found herself washed up on the shore of an island. There are three different
+        directions she could go.</p>
+
+    <!-- <div class="container">
+        <div id="text">Should Olessia...</div>
+        <div id="option-buttons" class="btn-grid">
+            <button onclick="myFunction()">Take the paved path.</button>
+            <button onclick="myFunction()">Go through the forest.</button>
+            <button onclick="myFunction()">Look through the shed.</button>
+        </div>
+    </div> -->
+
+    <button onclick="displayText('textField0')">Take the paved path.</button>
+    <div id="textField0" class="gn">
+        <p class="pop">To Olessia's right there was a paved path that split into two.To the left awaited a compass and a
+            map and to the right awaited a satyr. Which path should Olessia take?</p>
+    </div>
+
+    <button onclick="displayText('textField1')">Go through the forest.</button>
+    <div id="textField1" class="gn">
+        <p class="pop">In front of Olessia layed a plethora of exotic trees. Looking through the trees she notices a
+            pair or ice blue eyes staring directly at her. Should she go to it or avoid it?</p>
+    </div>
+
+    <button onclick="displayText('textField2')">Look through the shed.</button>
+    <div id="textField2" class="gn">
+        <p class="pop">To the left of Olessia, standing in front of the forest, there was a tattered shed. Outside the
+            shed there were footprints leading around the other side of the forest. Should she follow the footsteps or
+            go inside the shed?</p>
+    </div>
 
 </body>
 
