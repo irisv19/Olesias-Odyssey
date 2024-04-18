@@ -1,9 +1,9 @@
 const story = {
   start: {
-    text: "The beginning of your story",
+    text: "To the right of where she is standing there is a paved path leading alongside the forest split into two. ",
     choices: [
-      ["example1", "Go to the example"],
-      ["end", "go to the end"]
+      ["example1", "The left path awaited for her a map and compass."],
+      ["end", "The right path awaits a satyr."]
     ]
   },
   example1: {
