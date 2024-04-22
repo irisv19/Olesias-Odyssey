@@ -38,17 +38,6 @@ body {
 }
 
 
-/* .gn {
-    display: none;
-    color: white;
-}
-
-.pop {
-    color: white;
-    font-family: "Metal Mania", sans-serif;
-    font-weight: 400;
-    font-style:normal;
-} */
 
 button {
     color: white;
@@ -65,3 +54,40 @@ button {
     font-weight: 400;
     font-style: normal;
 }
+
+
+
+
+
+
+/* This is the media queries so our game can be accessible with several devices */
+
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+    body {
+      font-size: 16px;
+      width: 100%; 
+      margin: auto;
+    }
+  }
+  /* changed width from 80% to 100% */
+  
+  /* styles for tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 14px;
+      width: 100%;
+      margin: auto;
+    }
+  }
+   /* changed width from 90% to 100% */
+
+
+  /* styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+    }
+  }

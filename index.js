@@ -1,6 +1,6 @@
 const story = {
   start: {
-    text: "She was stranded on a boat and washed up on shore of an island. She sickly stumbled her way around trying to catch her balance. Her stomach ached from the lack of food and hydration. She was not the only one on that boat but she was the only one ALIVE. People of the village were supposed to go on a voyage to find new land to migrate to get away from the disease that is taking over their village.",
+    text: "She was stranded on a boat and washed up on shore of an island. She sickly stumbled her way around trying to catch her balance. Her stomach ached from the lack of food and hydration. She was not the only one on that boat but she was the only one alive. People of the village were supposed to go on a voyage to find new land to migrate to get away from the disease that is taking over their village.",
     choices: [
       ["example1", "The paved path"],
       ["example2", "The forest"],
@@ -82,8 +82,8 @@ const story = {
   example12: {
     text: "The potion turned her into a puddle of goo.Her slimey self squeezed its way through a crack in the dungeon and found herself back going through and underground tunnel small enough for a rat. She saw a light at the end and went up and found herself at the base of a mountain. What should she do now?",
     choices: [
-      ["example","Climb the mountain"],
-      ["example","Go find the path."]
+      ["example22","Climb the mountain"],
+      ["example23","Go find the path."]
     ]
   },
 
@@ -97,13 +97,29 @@ const story = {
   example14: {
     text: "She followed the footsteps Ajax had left behind him and she found him hiding behind a huge boulder. He was scared and out of breath. He snatched the sword bag from her and took it out. He handed it to her and in a hushed tone he said, 'you're going to need to hold this and keep it out just in case.' After that he didn't seem to move and then he died. What should she do now?",
     choices: [
-      ["example","Go see what made noise"],
-      ["example","Run farther"]
+      ["example24","Go see what made noise"],
+      ["example25","Run farther"]
     ]
   },
 
   example15: {
-    text: "",
+    text: "Olessia quickly and carefully unwrapped the sword. She prepared for some sort of attack to come her way when she heard a rustle coming from behind her. She quickly turns around and see's a pure white Siberian tiger with eyes the color of the ocean. Arkin, meaning the son of the eternal king. What should she do now?",
+    choices: [
+      ["example26","Kill him"],
+      ["example27","Go up to him"]
+    ]
+  },
+  
+  example16: {
+    text: "She began to stuff her face and after the first couple bites she already began to feel stronger. After some time, Ajax began to look worried and pulled her away from the food. 'Okay! Enough!' he said. Olessia fought back trying to eat more. She felt electricity running through veins as she ate. Ajax was able to pull her away and Olessia pushed him away again. This time, Ajax flew across the floor. Olessia was frightened. Ajax told her it was magical food and was not to be consumed in large portions. Ajax was trying to get her to calm down. What should she do now? ",
+    choices: [
+      ["example","Test Abilities"],
+      ["example","Relax"]
+    ]
+  },
+
+  example17: {
+    text: "She remembered what happened the first time she offered food like this so she didn't eat anything. All of a sudden a bunch of ",
     choices: [
       ["example",""],
       ["example",""]
@@ -152,7 +168,7 @@ const story = {
   },
   
   example104: {
-    text: "Caught off guard she decodes to ",
+    text: "Caught off guard she decides to slowly back away. She refuses to tuyrn her back to the animal considering shes twice her sixe. ",
     choices: [
       ["example109",""],
       ["example110",""]
