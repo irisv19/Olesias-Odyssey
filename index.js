@@ -80,7 +80,7 @@ const story = {
   },
 
   example12: {
-    text: "The potion turned her into a puddle of goo.Her slimey self squeezed its way through a crack in the dungeon and found herself back going through and underground tunnel small enough for a rat. She saw a light at the end and went up and found herself at the base of a mountain. What should she do now?",
+    text: "The potion turned her into a puddle of goo. Her slimey self squeezed its way through a crack in the dungeon and found herself back going through and underground tunnel small enough for a rat. She saw a light at the end and went up and found herself at the base of a mountain. What should she do now?",
     choices: [
       ["example22","Climb the mountain"],
       ["example23","Go find the path."]
@@ -113,18 +113,55 @@ const story = {
   example16: {
     text: "She began to stuff her face and after the first couple bites she already began to feel stronger. After some time, Ajax began to look worried and pulled her away from the food. 'Okay! Enough!' he said. Olessia fought back trying to eat more. She felt electricity running through veins as she ate. Ajax was able to pull her away and Olessia pushed him away again. This time, Ajax flew across the floor. Olessia was frightened. Ajax told her it was magical food and was not to be consumed in large portions. Ajax was trying to get her to calm down. What should she do now? ",
     choices: [
-      ["example","Test Abilities"],
-      ["example","Relax"]
+      ["example28","Test Abilities"],
+      ["example29","Relax"]
     ]
   },
 
   example17: {
-    text: "She remembered what happened the first time she offered food like this so she didn't eat anything. All of a sudden a bunch of ",
+    text: "She remembered what happened the first time she offered food like this so she didn't eat anything. All of a sudden a bunch of garden nymphs came and began eating the food. Without hesitation, Olessia immediately joined them.",
+    choices: [
+      ["example30","Test Abilities"],
+      ["example31","Relax"]
+    ]
+  },
+
+  
+  example18: {
+    text: "Over the mountain laid a castle. Olessia was stunned. Nothing in her vilage was remotely close to anything she had witnessed today. She didn't see any guards at the front door so she decided to walk in. She began to look for someone to talk to. She heard a rumbling behind a big door and she thought that maybe they could help her. She opened the door and it revealed a massive room of people having some sort of party. They all stopped and stared at Olessia. What should she do now?",
+    choices: [
+      ["example32","Go in"],
+      ["example33","Run away"]
+    ]
+  },
+
+  
+  example19: {
+    text: "She decided to turn and look for the path but she got lost. She was lost in the trees and suddenly everything looked the same. She found a clearing and went to go mark her spots just to make sure she wasn't going in circles. She began to look for things to use as markers when a shadow fell over her. She was picked up by a dragon and never to be seen again. ",
+    choices: [
+      ["end","She got eaten. The End."]
+      
+    ]
+  },
+
+  
+  example20: {
+    text: "Her body slid under the door and she turned back into human. She was panicking and grabbed the closest gun next to her. She grabbed a glock 45 and stooped behind the door. With a rumble and a smash the door came breaking down and in came a 3-headed mole man. What should she do now?",
+    choices: [
+      ["example34","Start Shooting"],
+      ["example35","Try to Escape"]
+    ]
+  },
+
+  
+  example21: {
+    text: "She got out barely in time. She couldn't exactly make out what the creature was but it looked like it had multiple heads ",
     choices: [
       ["example",""],
       ["example",""]
     ]
   },
+
 
   // example: {
   //   text: "",
