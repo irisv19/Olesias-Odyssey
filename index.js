@@ -155,13 +155,27 @@ const story = {
 
   
   example21: {
-    text: "She got out barely in time. She couldn't exactly make out what the creature was but it looked like it had multiple heads ",
+    text: "She got out barely in time. She couldn't exactly make out what the creature was but it looked like it had multiple heads. She got outside and it was pitch black. All of a sudden she turned back into human and everywhere around her were eyes as blue as the ocean. She froze in fear and all of a sudden growls echoed in her head. She felt herself get pushed over and cold, sharp claws impaled in her thigh. She tried to scream. But nothing came out. ",
     choices: [
-      ["example",""],
-      ["example",""]
+      ["end","Goodnight Forever"]
     ]
   },
 
+  example22: {
+    text: "Over the mountain laid a castle. Olessia was stunned. Nothing in her vilage was remotely close to anything she had witnessed today. She didn't see any guards at the front door so she decided to walk in. She began to look for someone to talk to. She heard a rumbling behind a big door and she thought that maybe they could help her. She opened the door and it revealed a massive room of people having some sort of party. They all stopped and stared at Olessia. What should she do now?",
+    choices: [
+      ["example36","Go In"],
+      ["example37","Run Away"]
+    ]
+  },
+  
+  example: {
+    text: "She decided to turn and look for the path but she got lost. She was lost in the trees and suddenly everything looked the same. She found a clearing and went to go mark her spots just to make sure she wasn't going in circles. She began to look for things to use as markers when a shadow fell over her. She was picked up by a dragon and never to be seen again.",
+    choices: [
+      ["end","She got Eaten. The End."]
+    ]
+  },
+  
 
   // example: {
   //   text: "",
@@ -205,20 +219,20 @@ const story = {
   },
   
   example104: {
-    text: "Caught off guard she decides to slowly back away. She refuses to tuyrn her back to the animal considering shes twice her sixe. ",
+    text: "Caught off guard she decides to slowly back away. She refuses to turn her back to the animal considering she's twice her size. She trips over something realizing that she fell right into the entrance of a cave. She feels the breath of whatever is behind her she stays still as she sees Arkin cornering her. Cubs come out from behind her and start to play right next to her. The huge figure comes out from behind her and it locks eyes with Olessia leaving her stunned, he's even larger than Arkin. What should she do now?  ",
     choices: [
-      ["example109",""],
-      ["example110",""]
+      ["example109","Play dead"],
+      ["example110","RUN"]
     ]
   },
 
-  // example105: {
-  //   text: "",
-  //   choices: [
-  //     ["example111",""],
-  //     ["example112",""]
-  //   ]
-  // },
+  example105: {
+    text: "She decides to go toward the shed to see if there are any tools in there. She takes the lo9ck off and opens the door and sees theres some stuff in there. There's a book shelf full of books and bottles covered in dust. It looked like no one has been in there in a while. The shed is a lot bigger on the inside than it does from outside. What should she do now?",
+    choices: [
+      ["example111","Grab what she needs and leave"],
+      ["example112","Investigate"]
+    ]
+  },
   // example106: {
   //   text: "",
   //   choices: [
@@ -234,6 +248,44 @@ const story = {
       ["example116","Look for shelter & rest"]
     ]
   },
+   // example: {
+  //   text: "",
+  //   choices: [
+  //     ["example",""],
+  //     ["example",""]
+  //   ]
+  // },
+
+   // example: {
+  //   text: "",
+  //   choices: [
+  //     ["example",""],
+  //     ["example",""]
+  //   ]
+  // },
+
+   example110: {
+    text: "Olessia lets a moment pass then she makes a run for it. She uses all her energy. Little does she now she never had a chance to out run these hungery beasts. They havan't eaten in days and her cubs need to eat. Both of them head stright after her and strike her down from different sides. Arkin took one huge bite from her neck and the next thing we know. There are no more survivers from her island.",
+    choices: [
+      ["end","DEAD..."]
+    ]
+  },
+
+   example111: {
+    text: "She grabs whatever tools she could hold and leaves. That place creeped her out. She nows theres some wood on the boat so she goes back so she can get started. Theres a tare in the sails but theres also holes all over it. ",
+    choices: [
+      ["example",""],
+      ["example",""]
+    ]
+  },
+
+   // example: {
+  //   text: "",
+  //   choices: [
+  //     ["example",""],
+  //     ["example",""]
+  //   ]
+  // },
   
 
   //above is story two
@@ -309,3 +361,8 @@ function createStory(text) {
 
 printStory(story.start.text);
 //above code prints an executes the story
+
+
+
+
+// INVENTORY
