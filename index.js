@@ -169,13 +169,22 @@ const story = {
     ]
   },
   
-  example: {
+  example23: {
     text: "She decided to turn and look for the path but she got lost. She was lost in the trees and suddenly everything looked the same. She found a clearing and went to go mark her spots just to make sure she wasn't going in circles. She began to look for things to use as markers when a shadow fell over her. She was picked up by a dragon and never to be seen again.",
     choices: [
       ["end","She got Eaten. The End."]
     ]
   },
+
+  example24: {
+    text: "The sword felt comfortable in her hands. She went back to where they were when they heard the noise. She though she was lost for a second but then she heard the same exact rustle. This time, only louder and followed by loud booms. A shadow fell over her and she looked up. The hot, fleshy, windy breath of a dragon swayed her body. What should she do now?",
+    choices: [
+      ["example",""],
+      ["example",""]
+    ]
+  },
   
+
 
   // example: {
   //   text: "",
