@@ -1,5 +1,12 @@
 const story = {
   start: {
+    text: "START TEXT ADVENTURE GAME",
+    choices: [
+      ["example0", "START"]
+    ]
+  },
+
+  example0: {
     text: "Stranded on a boat for over a month, Olessia finds herself surrounded by the deceased and completely out of food. For reference, her village was overcome by a terrible plague and almost everyone planned an escape. Olessia and 10 other people from her village sailed across the Sea of Selecia. Halfway through the sea, the sails tore leaving the boat to float wanderlessly. Over the span of two weeks half of the crew had passed and food was becoming scarce. Another two weeks had passed and Olessia was the only survivor. She had no food left whatsoever and was feeling extremely weak and pale. Her stomach aching from the lack of food and hydration, Olessia decided it was time to accept her fate when the boat came to a rumble and a stop. Olessia found herself washed up on the shore of an island. There are three different directions she could go.",
     choices: [
       ["example1", "The paved path"],
@@ -7,6 +14,7 @@ const story = {
       ["example3", "The shed"]
     ]
   },
+
   example1: {
     text: "The paved path splits into two. The left path awaited a map and compass and the right path awaited a Satyr. Which path should Olessia take?",
     choices: [
@@ -318,20 +326,19 @@ const story = {
 
 
 
-
-
-
-
-
 let storyContainer = document.getElementById("story");
 
-let buttonContainer = document.createElement("buttons");
+let buttonContainer = document.createElement("section");
 for (let i = 0; i < 4; i++) {
   buttonContainer.innerHTML = story.start.text;
   document.body.appendChild(buttonContainer);
 }
+buttonContainer.classList.add('butCont')
 let storage = ["start"];
+
 //above code creates the button and story entities, and tells the computer how many should be made
+
+
 
 function makeButton(btnText, choice) {
   let button = document.createElement("button");
@@ -347,6 +354,7 @@ function makeButton(btnText, choice) {
 }
 //above code links the Choice IDs with the button entities
 
+
 function printStory(text) {
   let pageNow = storage[storage.length - 1];
   storyContainer.innerHTML = "";
@@ -358,6 +366,7 @@ function printStory(text) {
     makeButton(choice[1], choice[0])
   }
 }
+
 //above code prints corresponding text and clears the button and story containers so they can be used repeatedly
 function createStory(text) {
   let storyItem = document.createElement("p");
@@ -366,12 +375,24 @@ function createStory(text) {
 
   storyContainer.appendChild(storyItem);
 }
+
 //above code links text IDs to the story containers
 
 printStory(story.start.text);
 //above code prints an executes the story
 
-
+function reload(){
+  window.location='index.html'
+}
+// above code restarts the game and creates button
 
 
 // INVENTORY
+
+
+
+
+
+
+
+

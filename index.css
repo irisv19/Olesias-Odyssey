@@ -1,97 +1,134 @@
 body {
-    background-color: black;
-    font: white;
+  background-color: black;
+  font: white;
 }
+
 /* Below is more font stuff */
 .head-text {
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Font and cursor styling */
-    .crosshair {
-            font-family: "Metal Mania", system-ui;
-            font-weight: 400;
-            font-style: normal;
-            color: white;
-            font-size: x-large;
-            text-align: center;
-            padding: 10%;
-            padding-top: 5%;
-    }
+.crosshair {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  padding: 10%;
+  padding-top: 5%;
+}
 
 /* This is to align and place the main picture on the page */
 
 .head-image {
-    background-image: url(pictures/option5pt5.png);
-    /* height: 100%; */
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-    /* position: relative; */
-    padding: 20%;
+  background-image: url(pictures/option5pt5.png);
+  /* height: 100%; */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* position: relative; */
+  padding: 20%;
 }
 
 .head-text {
-    text-align: center;
-    /* position: absolute; */
-    /* top: 50%;
+  text-align: center;
+  /* position: absolute; */
+  /* top: 50%;
     left:50%; */
-    /* transform: translate(-50%, -50%); */
-    color: white;
+  /* transform: translate(-50%, -50%); */
+  color: white;
 }
 
 
 
 button {
-    color: white;
-    background-color: black;
-    border: 5;
-    font-family: "Protest Revolution", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: larger;
+  color: white;
+  background-color: black;
+  border: 5;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  margin-right: 1dvw;
+  margin-left: 1dvw;
 }
+
 
 #demo {
-    color: white;
-    font-family: "Metal Mania", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: white;
+  font-family: "Metal Mania", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.butCont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5dvw;
 }
 
 
+::-webkit-scrollbar {
+  width: 12px;
+}
 
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #ff0000);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #ff8000);
+}
+
+body{padding-bottom: 500px;}
+
+.restart {
+  color: white;
+  background-color: black;
+  border: 5;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
 
 
 /* This is the media queries so our game can be accessible with several devices */
 
 /* styles for desktop devices */
 @media only screen and (min-width: 992px) {
-    body {
-      font-size: 16px;
-      width: 100%; 
-      margin: auto;
-    }
+  body {
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
   }
-  /* changed width from 80% to 100% */
-  
-  /* styles for tablet devices */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-      font-size: 14px;
-      width: 100%;
-      margin: auto;
-    }
+}
+
+/* changed width from 80% to 100% */
+
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
   }
-   /* changed width from 90% to 100% */
+}
+
+/* changed width from 90% to 100% */
 
 
-  /* styles for mobile devices */
-  @media only screen and (max-width: 767px) {
-    body {
-      font-size: 12px;
-      width: 100%;
-      margin: 0;
-    }
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
   }
+}
