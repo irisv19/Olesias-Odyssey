@@ -282,14 +282,14 @@ const story = {
   // },
 
   example110: {
-    text: "Olessia lets a moment pass then she makes a run for it. She uses all her energy. Little does she now she never had a chance to out run these hungery beasts. They havan't eaten in days and her cubs need to eat. Both of them head stright after her and strike her down from different sides. Arkin took one huge bite from her neck and the next thing we know. There are no more survivers from her island.",
+    text: "Olessia lets a moment pass then she makes a run for it. She uses all her energy. Little does she now she never had a chance to out run these hungry beasts. They haven't eaten in days and her cubs need to eat. Both of them head stright after her and strike her down from different sides. Arkin took one huge bite from her neck and the next thing we know. There are no more survivers from her island.",
     choices: [
       ["end", "DEAD..."]
     ]
   },
 
   example111: {
-    text: "She grabs whatever tools she could hold and leaves. That place creeped her out. She nows theres some wood on the boat so she goes back so she can get started. Theres a tare in the sails but theres also holes all over it. ",
+    text: "She grabs whatever tools she could hold and leaves. That place creeped her out. She nows theres some wood on the boat so she goes back so she can get started. Theres a tear in the sails but theres also holes all over it. ",
     choices: [
       ["example", ""],
       ["example", ""]
