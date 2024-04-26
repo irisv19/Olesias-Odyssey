@@ -56,6 +56,7 @@ button {
   margin-right: 1dvw;
   margin-left: 1dvw;
 }
+/* all our story option buttons above */
 
 
 #demo {
@@ -71,6 +72,7 @@ button {
   width: 100%;
   margin-bottom: 5dvw;
 }
+/* start button apearantly */
 
 
 ::-webkit-scrollbar {
@@ -88,7 +90,7 @@ button {
 
 body{padding-bottom: 500px;}
 
-
+/* restart butto */
 input[type="button" i] {
   color: white;
   background-color: black;
