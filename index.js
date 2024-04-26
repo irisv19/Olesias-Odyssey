@@ -328,12 +328,12 @@ const story = {
 
 let storyContainer = document.getElementById("story");
 
-let buttonContainer = document.createElement("section");
-for (let i = 0; i < 4; i++) {
-  buttonContainer.innerHTML = story.start.text;
-  document.body.appendChild(buttonContainer);
-}
-buttonContainer.classList.add('butCont')
+let buttonContainer = document.getElementById("butCont");
+// for (let i = 0; i < 4; i++) {
+//   buttonContainer.innerHTML = story.start.text;
+//   document.body.appendChild(buttonContainer);
+// }
+// buttonContainer.classList.add('butCont')
 let storage = ["start"];
 
 //above code creates the button and story entities, and tells the computer how many should be made

@@ -88,15 +88,98 @@ button {
 
 body{padding-bottom: 500px;}
 
-.restart {
+
+input[type="button" i] {
   color: white;
   background-color: black;
-  border: 5;
   font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: x-large;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5dvw;
 }
+
+input[type="button" i] {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 100ms 300ms;
+  -o-transition: 100ms 300ms;
+  transition: 100ms 300ms;
+}
+input[type="button" i] {
+  border: 2px solid;
+  border-radius: 5px;
+}
+input[type="button" i]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #cf649a;
+  z-index: -1;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+  bottom: 0;
+  border-radius: 40px 40px 0 0;
+  -webkit-box-shadow: 0 0 10px #cf649a, 0 0 40px #cf649a, 0 0 80px #cf649a;
+  box-shadow: 0 0 10px #cf649a, 0 0 40px #cf649a, 0 0 80px #cf649a;
+}
+input[type="button" i]:hover::before {
+  height: 180%;
+}
+input[type="button" i]:hover {
+  -webkit-box-shadow: 0 0 10px #cf649a, 0 0 40px #cf649a, 0 0 80px #cf649a;
+  box-shadow: 0 0 10px #cf649a, 0 0 40px #cf649a, 0 0 80px #cf649a;
+}
+input[type="button" i]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #df4b25;
+  z-index: -1;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+  bottom: 0;
+  border-radius: 40px 40px 0 0;
+  -webkit-box-shadow: 0 0 10px #df4b25, 0 0 40px #df4b25, 0 0 80px #df4b25;
+  box-shadow: 0 0 10px #df4b25, 0 0 40px #df4b25, 0 0 80px #df4b25;
+}
+input[type="button" i]:hover::before {
+  height: 180%;
+}
+input[type="button" i]:hover {
+  -webkit-box-shadow: 0 0 10px #df4b25, 0 0 40px #df4b25, 0 0 80px #df4b25;
+  box-shadow: 0 0 10px #df4b25, 0 0 40px #df4b25, 0 0 80px #df4b25;
+}
+input[type="button" i]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3596cf;
+  z-index: -1;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+  bottom: 0;
+  border-radius: 40px 40px 0 0;
+  -webkit-box-shadow: 0 0 10px #cf3535, 0 0 40px #cf3535, 0 0 80px #cf3535;
+  box-shadow: 0 0 10px #cf3535, 0 0 40px #cf3535, 0 0 80px #cf3535;
+}
+input[type="button" i]:hover::before {
+  height: 180%;
+}
+input[type="button" i]:hover {
+  -webkit-box-shadow: 0 0 10px #cf3535, 0 0 40px #cf3535, 0 0 80px #cf3535;
+  box-shadow: 0 0 10px #cf3535, 0 0 40px #cf3f35, 0 0 80px #cf3535;
+}
+/* Restart button above */
 
 
 /* This is the media queries so our game can be accessible with several devices */
